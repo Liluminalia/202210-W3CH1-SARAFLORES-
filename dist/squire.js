@@ -1,8 +1,8 @@
 import { Character } from './character';
 export class Squire extends Character {
-    constructor(name, family, age, toady) {
+    constructor(name, family, age, patheticLevel) {
         super(name, family, age);
-        this.toady = toady;
+        this.patheticLevel = patheticLevel;
         this.message = 'Soy un loser.';
     }
 }

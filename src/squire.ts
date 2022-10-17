@@ -3,7 +3,6 @@ import { Fighter } from './fighter';
 
 export class Squire extends Character {
     patheticLevel: number;
-    squiring = Fighter;
 
     constructor(
         name: string,
@@ -13,7 +12,6 @@ export class Squire extends Character {
     ) {
         super(name, family, age);
         this.patheticLevel = patheticLevel;
-        this.squiring = Fighter;
         this.message = 'Soy un loser.';
     }
 }

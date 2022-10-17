@@ -5,6 +5,8 @@ export class Character {
         this.age = age;
         this.lifeStatus = true;
         this.message = '';
+        this.assessor = null;
+        this.squiring = null;
     }
     communicate() {
         return this.message;
