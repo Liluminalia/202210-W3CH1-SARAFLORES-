@@ -1,6 +1,6 @@
 import { Character } from './character';
 
-export class king extends Character {
+export class King extends Character {
     kingdomYears: number;
 
     constructor(
