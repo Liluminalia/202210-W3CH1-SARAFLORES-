@@ -11,5 +11,5 @@ export const Characters = [
     new Assessor('Tyrion', 'Lannister', 33),
     new Squire('Bronn', 'BlackWaters', 45, 5),
 ];
-
+(Characters[1] as Assessor).hired(<Fighter>Characters[0]);
 // console.log(characters); //importar al ficher html

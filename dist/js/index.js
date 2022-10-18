@@ -1,4 +1,6 @@
+'use strict';
 import { Characters } from '../characters.js';
+import { Character } from '../character.js';
 import { Template } from 'template.js';
 const main = () => {
     const cards = () => {
